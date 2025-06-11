@@ -59,3 +59,8 @@ Install them in R with:
 install.packages(c("tidyverse", "polycor", "corrplot", "broom", "RColorBrewer", 
                    "calibrate", "robustHD", "SpectralClMixed", "foreign", 
                    "nnet", "stargazer", "DescTools"))
+## 📖 Reference
+Moccia C, Pizzi C, Moirano G, et al.
+Modelling socioeconomic position as a driver of the exposome in the first 18 months of life of the NINFEA birth cohort children.
+Environment International. 2023;174:107864.
+https://doi.org/10.1016/j.envint.2023.107864
