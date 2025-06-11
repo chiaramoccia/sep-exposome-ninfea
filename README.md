@@ -30,9 +30,9 @@ The following analytical approaches were applied:
 | Folder / Script               | Description                                |
 |------------------------------|--------------------------------------------|
 | `1_descriptive_statistics.R` | Scripts for summary and descriptive stats  |
-| `2_ExWAS/`                   | R scripts for ExWAS analysis               |
-| `3_FAMD/`                    | R scripts for PCA/FAMD of exposure domains |
-| `4_Spectral_cluster/`        | Scripts for spectral clustering            |
+| `2_ExWAS.R`                  | R script for ExWAS analysis               |
+| `3_FAMD.R`                    | R script for PCA/FAMD of exposure domains |
+| `4_Spectral_cluster.R`        | Script for spectral clustering            |
 
 ---
 
