@@ -1,5 +1,6 @@
 # sep-exposome-ninfea
-[# Modelling socioeconomic position as a driver of the exposome in the first 18 months of life of the NINFEA birth cohort children
+# 🧠 Modelling Socioeconomic Position as a Driver of the Exposome in the First 18 Months of Life  
+**NINFEA Birth Cohort Study**
 
 This repository contains a demonstration of the methods used in the study:
 
