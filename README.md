@@ -11,21 +11,51 @@ Published in *Environment International*.
 
 ### 📊 Summary
 
-We investigated how **socioeconomic position (SEP)** influences early-life **exposome** profiles, using data from the NINFEA cohort (Italy). We applied:
+We explored the role of **socioeconomic position (SEP)** in shaping the **early-life exposome** using data from the Italian **NINFEA birth cohort**.  
+The following analytical approaches were applied:
 
-- **Exposome-Wide Association Study (ExWAS)**: SEP as exposure, environmental variables as outcomes
-- **Cluster Analysis**: grouping children by exposure patterns
-- **Principal Component Analysis (PCA)**: dimensionality reduction within each exposure group
+- **Exposome-Wide Association Study (ExWAS)**  
+  SEP modeled as the exposure; environmental variables as outcomes.
 
-### 📂 Repository Contents
+- **Cluster Analysis**  
+  To group children based on similar exposure patterns.
 
-| Folder   | Description                                |  
-|----------|--------------------------------------------|  
-| 1_descriptive_statistics.R | R scripts for descriptive statistics |  
-| 2_ExWAS |  R scripts for ExWAS analysis|  
-| 3_FAMD | R scripts for PCA                           |  
-| 4_Spectral_cluster | R scripts for spectral clustering                    |  
+- **Principal Component Analysis (PCA) / Factor Analysis for Mixed Data (FAMD)**  
+  To reduce dimensionality within each exposure domain.
 
-### 🔧 Requirements
+---
 
-- R: `tidyverse`,  `polycor corrplot`,  `broom`, `RColorBrewer`, `calibrate`, `RColorBrewer`, `RColorBrewer`, `robustHD`, `SpectralClMixed`, `foreign`, `nnet`, `stargazer`, `DescTools`](https://doi.org/10.1016/j.envint.2023.107864)
+## 📂 Repository Structure
+
+| Folder / Script               | Description                                |
+|------------------------------|--------------------------------------------|
+| `1_descriptive_statistics.R` | Scripts for summary and descriptive stats  |
+| `2_ExWAS/`                   | R scripts for ExWAS analysis               |
+| `3_FAMD/`                    | R scripts for PCA/FAMD of exposure domains |
+| `4_Spectral_cluster/`        | Scripts for spectral clustering            |
+
+---
+
+## 🔧 Requirements
+
+Make sure the following R packages are installed:
+
+- `tidyverse`  
+- `polycor`  
+- `corrplot`  
+- `broom`  
+- `RColorBrewer`  
+- `calibrate`  
+- `robustHD`  
+- `SpectralClMixed`  
+- `foreign`  
+- `nnet`  
+- `stargazer`  
+- `DescTools`
+
+Install them in R with:
+
+```r
+install.packages(c("tidyverse", "polycor", "corrplot", "broom", "RColorBrewer", 
+                   "calibrate", "robustHD", "SpectralClMixed", "foreign", 
+                   "nnet", "stargazer", "DescTools"))
