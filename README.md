@@ -1,5 +1,5 @@
 # sep-exposome-ninfea
-# Modelling socioeconomic position as a driver of the exposome in the first 18 months of life of the NINFEA birth cohort children
+[# Modelling socioeconomic position as a driver of the exposome in the first 18 months of life of the NINFEA birth cohort children
 
 This repository contains a demonstration of the methods used in the study:
 
@@ -24,4 +24,4 @@ We investigated how **socioeconomic position (SEP)** influences early-life **exp
 
 ### 🔧 Requirements
 
-- R: `tidyverse`,  `polycor corrplot`,  `broom`, `RColorBrewer`, `calibrate`, `RColorBrewer`, `RColorBrewer`, `robustHD`, `SpectralClMixed`, `foreign`, `nnet`, `stargazer`, `DescTools`
+- R: `tidyverse`,  `polycor corrplot`,  `broom`, `RColorBrewer`, `calibrate`, `RColorBrewer`, `RColorBrewer`, `robustHD`, `SpectralClMixed`, `foreign`, `nnet`, `stargazer`, `DescTools`](https://doi.org/10.1016/j.envint.2023.107864)
