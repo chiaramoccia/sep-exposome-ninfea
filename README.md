@@ -24,4 +24,4 @@ We investigated how **socioeconomic position (SEP)** influences early-life **exp
 
 ### 🔧 Requirements
 
-- R: `tidyverse`,  `polycor corrplot`,  `broom`, `RColorBrewer`, `calibrate`****
+- R: `tidyverse`,  `polycor corrplot`,  `broom`, `RColorBrewer`, `calibrate`, `RColorBrewer`, `RColorBrewer`, `robustHD`, `SpectralClMixed`, `foreign`, `nnet`, `stargazer`, `DescTools`
