@@ -59,7 +59,7 @@ Install them in R with:
 install.packages(c("tidyverse", "polycor", "corrplot", "broom", "RColorBrewer", 
                    "calibrate", "robustHD", "SpectralClMixed", "foreign", 
                    "nnet", "stargazer", "DescTools"))
-```r
+```
 ---
 
 ## 📖 Reference
