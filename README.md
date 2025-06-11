@@ -17,9 +17,11 @@ We investigated how **socioeconomic position (SEP)** influences early-life **exp
 
 | Folder   | Description                                |  
 |----------|--------------------------------------------|  
-| scripts/ | R scripts for regression, PCA, and clustering |  
-| figures/ | Result plots                              |  
+| 1_descriptive_statistics.R | R scripts for descriptive statistics |  
+| 2_ExWAS |  R scripts for ExWAS analysis|  
+| 3_FAMD | R scripts for PCA                           |  
+| 4_Spectral_cluster | R scripts for spectral clustering                    |  
 
 ### 🔧 Requirements
 
-- R: `tidyverse`,
+- R: `tidyverse`,  `polycor corrplot`,  `broom`, `RColorBrewer`, `calibrate`****
